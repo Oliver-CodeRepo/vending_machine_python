@@ -26,7 +26,8 @@ This is python-django based machine vending backend with DRF(Django RestFull API
 
 5. make migrations and migrate
    ```py
-   python manage.py makemigrations migrate
+   python manage.py makemigrations
+   python manage.py migrate
    ```
 6. create super admin and fill in the prompts
    ```py
